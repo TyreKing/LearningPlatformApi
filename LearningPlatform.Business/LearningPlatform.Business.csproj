@@ -7,4 +7,10 @@
     <RootNamespace>LearningPlatform.Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LearningPlatform.Context\LearningPlatform.Context.csproj" />
+    <ProjectReference Include="..\LearningPlatform.Domain\LearningPlatform.Domain.csproj" />
+    <ProjectReference Include="..\LearningPlatform.Shared\LearningPlatform.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

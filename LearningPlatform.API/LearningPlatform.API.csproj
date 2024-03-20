@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LearningPlatform.Business\LearningPlatform.Business.csproj" />
+    <ProjectReference Include="..\LearningPlatform.Domain\LearningPlatform.Domain.csproj" />
+    <ProjectReference Include="..\LearningPlatform.Shared\LearningPlatform.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
